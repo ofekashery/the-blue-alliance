@@ -99,6 +99,7 @@ function ApiDocsV3(): React.JSX.Element {
           operationsSorter: 'alpha',
           plugins: [XChangesPlugin()],
           searchHotKey: 'l', // to not conflict with the navbar search hotkey
+          customCss: '.t-doc__header { top: var(--header-height)!important; }',
           telemetry: false,
         }}
       />

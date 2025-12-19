@@ -55,7 +55,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
 
-  --header-height: 4rem;
+  --header-height: 3.5rem;
   --footer-inset-top: 4rem;
   --footer-min-height: calc(7rem + 2px); /* we have 2 borders of 1px each */
 
